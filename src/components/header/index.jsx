@@ -2,7 +2,7 @@ import { Link } from 'gatsby';
 import get from 'lodash/get';
 import React from 'react';
 
-import profileImg from '../../images/profile.jpg';
+import profileImg from '../../images/icon.jpg';
 
 const classes = {
   wrapper: 'block mb-6 md:flex',
@@ -21,6 +21,7 @@ const Header = ({ metadata = {}, noBlog = false }) => {
   const twitter = get(metadata, 'author', false);
   const github = get(metadata, 'github', false);
   const linkedin = get(metadata, 'linkedin', false);
+  const resume = get(metadata, 'resume', false);
 
   return (
     <div className={classes.wrapper}>
@@ -62,8 +63,15 @@ const Header = ({ metadata = {}, noBlog = false }) => {
           {!noBlog && (
             <li className={classes.item}>
               <Link className={classes.link} to="/blog">
-                Blog
+                Projects
               </Link>
+            </li>
+          )}
+          {resume && (
+            <li className={classes.item}>
+              <a className={classes.link} href={resume}>
+                Resume
+              </a>
             </li>
           )}
         </ul>

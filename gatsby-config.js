@@ -5,54 +5,27 @@ module.exports = {
     // Your Name
     name: 'Anthony Ellis',
     // Main Site Title
-    title: `Anthony Ellis | Software Developer`,
+    title: `Anthony Ellis | Game Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
-    // Optional: Twitter account handle
-    author: `@rfitzio`,
+    description: `Developing games since 2017`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/MNchino`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/supremeoverlord/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
-    // Optional: List your projects, they must have `name` and `description`. `link` is optional.
-    projects: [
-      {
-        name: 'Devfolio',
-        description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'ChromeExtensionKit',
-        description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
-      },
-      {
-        name: 'Another Cool Project',
-        description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-    ],
+    about: `I am a Software Engineer with a Bachelor's Degree in Computer Science from University of Maryland, Baltimore County.  In my side hustle, I develop small games over a variety of genres.`,
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
+    resume:  `https://drive.google.com/file/d/1GRKYh04PpF_y0DU_Znh9Pg9LV8WYjdYk/view?usp=sharing`,
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'JP Morgan Chase',
+        description: 'Full-Stack Developer, July 2021 - Present',
+        link: 'https://www.jpmorganchase.com/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Reality Analytics',
+        description: 'Front-End Intern, April 2020 - June 2021',
+        link: 'https://reality.ai/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +33,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'JavaScript (ES6+), Node.js, Angular.js, React.js, Loopback.js, Python 3, Java, C++, C, Clojure, Docker',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, MySQL',
       },
       {
-        name: 'Other',
+        name: 'Game Engines',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Godot Game Engine, Unreal 4, GameMaker Studio 1.4, Defold Engine, Unity',
       },
     ],
   },
@@ -131,7 +104,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`, // This color appears on mobile
         display: `minimal-ui`,
-        icon: `src/images/icon.png`,
+        icon: `src/images/icon.jpg`,
       },
     },
   ],
