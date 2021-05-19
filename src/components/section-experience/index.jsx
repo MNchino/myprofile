@@ -13,7 +13,6 @@ const SectionExperience = ({ experience }) => {
           key={item.name}
           name={item.name}
           description={item.description}
-          link={item.link}
         />
       ))}
     </Section>

@@ -24,6 +24,7 @@ const Index = ({ data }) => {
       <SEO />
       <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
       {about && <SectionAbout about={about} />}
+      <img src="https://s3.gifyu.com/images/reel-gif.gif"alt="" style={{border: "5px solid #555", width: "100%"}}/>
       {projects && projects.length && <SectionProjects projects={projects} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
